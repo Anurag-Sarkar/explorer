@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy-Light";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#navbar{
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar h1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+#navbar h1 i{
+    padding-left: 15px;
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    border-radius: 50%;
+    border: 1px solid rgb(189, 189, 189);
+    background-color: rgb(229, 241, 229);
+}
+#left{
+    margin-top:100px ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+}
+#rotate{
+    
+    width: 30%;
+    height: 100%;
+}
+#line{
+    bottom: 0%;
+    left: 9%;
+    position: absolute;
+    width: 2px;
+    height: 460px;
+    background-color: black;
+}
+#content{
+    padding-left: 60px;
+    padding-top: 170px;
+    width: 100%;
+    height: 100%;
+}
+
+#rotate h1{
+    top: 20%;
+    left: 3%;
+    font-weight: 100;
+    position: absolute;
+    font-size: 130px;
+    transform: rotate(270deg);
+}
+#content h1{
+    line-height: 70px;
+    font-size: 75px;
+}
+#content p{
+    margin-top: 80px;
+}
+#explore{
+    margin-top: 80px;
+    margin-right: 520px;
+    padding: 20px 95px;
+    background-color: black;
+    color: white;
+}
+#image {
+    z-index: -1;
+    position: absolute;
+    bottom: -1%;
+    left: 40%;
+}
+#nav{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#one{
+    display: flex;
+}
+#one h3{
+    padding-bottom: 10px;
+    margin-right: 35px;
+    font-weight: 100;
+    font-size: 15px;
+    color: grey;
+}
+#one h4{
+    padding-bottom: 10px;
+    font-weight: 100;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right:50px;
+    margin-right: 35px;
+    border-bottom: 1px solid black;
+}
+#right{
+    padding-top: 150px;
+    right: 0%;
+    margin-top:100px ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 26%;
+    height: 100%;
+}
+
+#circle{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+#lol{
+    width: 80%;
+    height: 100%;
+}
+#sexy h4{
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: grey;
+    font-weight: 100;
+}
+#sexy h3{
+    font-size: 18px;
+}
+#con{
+    margin-top: 180px;
+}
+
+#botm{
+    width: 140px;
+    height: 100%;
+}
+#arrow{
+    margin-top: 200px ;
+    display: flex;
+    justify-content: space-between;
+}
+#arrow i{
+    font-size: 30px;
+}
+#thing{
+    display: flex;
+    align-items: center;
+    top: 28%;
+    right: -10%;
+    position: absolute;
+    transform: rotate(270deg);
+    width: 200px;
+}
+#brdr{
+    transform: rotate(90deg);
+    background-color: rgb(0, 0, 0);
+    width: 20px;
+    height: 50px;
+}
+#thing h5{
+    margin: 0px 45px;
+}
